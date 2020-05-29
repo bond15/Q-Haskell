@@ -1,0 +1,15 @@
+cabal-version:       >=1.10
+
+name:                Q-Haskell
+version:             0.1.0.0
+description:         Quantum Circuits in Haskell
+license:             BSD3
+author:              bond15
+maintainer:          bond15@purdue.edu
+build-type:          Simple
+extra-source-files:  CHANGELOG.md, README.md
+
+library
+  exposed-modules:     MyLib
+  build-depends:       base >=4.12 && <4.13
+  default-language:    Haskell2010
